@@ -1,0 +1,159 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con Layout</title>
+    <style>
+        /* Reset di default */
+         {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Stili generali */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: black;
+        }
+
+        /* Layout contenitore */
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Intestazione */
+        header {
+			font-family: time new romans;
+            background-color: #694214;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #694214;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+
+        /* Layout principale (2 colonne) */
+        .main {
+            display: flex;
+            flex: 1;
+        }
+
+        /* Colonna laterale del menu */
+        .sidebar {
+            width: 250px;
+            background-color: #935116;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem 0;
+        }
+		
+		/* Colore dietro le scritte nei collegamenti */
+        .sidebar a:hover {
+            background-color: #be6a20;
+        }
+
+        /* Corpo centrale */
+        .content {
+            flex: 1;
+            padding: 2rem;
+            background-color: #f2be5c;
+        }
+
+        /* Stili per il menu laterale */
+        .sidebar ul {
+            list-style-type: none;
+        }
+		
+		.testostile3{
+			font-family: time new romans;
+			font-size: 25px;
+			text-align: justify;
+			font-width: bolder;
+			color: black;
+		}
+		
+		.testostile{
+			font-family: time new romans;
+			font-size: 30px;
+			text-align: center;
+			font-width: bolder;
+			font-weight: bold;
+			color: ;
+		}
+		
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Intestazione -->
+    <header>
+      <p class="testostile3"> <h1> RED DEAD REDEMPTION 2 </h1> </p>
+    </header>
+
+    <!-- Contenuto principale -->
+    <div class="main">
+        <!-- Colonna laterale (Menu) -->
+        <aside class="sidebar">
+            <p class="testostile"> Collegamenti </p>
+            <ul>
+                <li> <a href="homegioco2.html">HOME</a> </li>
+                <li> <a href="storia2.html">LA STORIA</a> </li>
+                <li> <a href="curiosita2.html">CURIOSITA'</a> </li>
+                <li> <a href="rockstar2.html">ROCKSTARGAMES</a> </li>
+            </ul>
+        </aside>
+
+        <!-- Corpo centrale -->
+        <div class="content">
+		<p align="center"> <img src="img/logo1.png" height="95" width="25%"> </img>
+
+            <p class="testostile3"> 
+
+
+<p class="testostile3"> 
+Red Dead Redemption 2 è un gioco d'azione-avventura ambientato nel 1899, che segue le vicende di Arthur Morgan, un membro della banda di Van der Linde. La storia si sviluppa in un periodo di cambiamento, in cui l'era del selvaggio West sta lentamente giungendo al termine.
+<br>
+La banda, guidata da Dutch Van der Linde, è composta da vari membri tra cui Arthur, il suo compagno di lunga data, John Marston (il protagonista del primo Red Dead Redemption), e altri personaggi chiave. La storia inizia quando la banda si rifugia in una regione remota dopo un colpo andato storto. Man mano che si susseguono vari eventi, la banda si trova costantemente a dover sfuggire dalle autorità e da altri nemici, mentre Dutch cerca di mantenere la sua visione di libertà, ma inizia a perdere il controllo della situazione.
+<br>
+Arthur, protagonista principale, è un uomo leale ma che inizia a mettere in discussione le scelte di Dutch, soprattutto man mano che il gruppo si trova coinvolto in azioni sempre più violente e moralmente dubbie. Nel corso del gioco, Arthur sviluppa una riflessione sulla sua vita e le sue scelte, affrontando temi come la redenzione, la lealtà e la corruzione.
+<br>
+Nel finale, Arthur si trova a dover scegliere tra continuare a seguire Dutch o cercare di fare la cosa giusta. La sua storia si intreccia con quella di John Marston, il quale, nonostante le difficoltà, finirà per essere il protagonista del primo Red Dead Redemption, dove le sue azioni e il suo destino sono influenzati dalla fine della banda.
+<br>
+In sintesi, Red Dead Redemption 2 è una storia di perdizione, speranza e lotta per la sopravvivenza, con forti temi di cambiamento, lealtà e morale, mentre il mondo attorno ai protagonisti si evolve e cambia irreversibilmente. Che ne fanno uno dei gichi migliori, se non proprio il migliore di sempre.
+</p>
+
+<table style="width:100%">	
+			<tr>
+				<td> <img src="img/storia2.jpg" height="600" width="100%"> </img>  </td>
+			</tr>
+</table>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; VIDEOGAME Stefanile Michele </p>
+    </footer>
+</div>
+
+</body>
+</html>

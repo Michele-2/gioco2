@@ -1,0 +1,152 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con Layout</title>
+    <style>
+        /* Reset di default */
+         {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Stili generali */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: black;
+        }
+
+        /* Layout contenitore */
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Intestazione */
+        header {
+			font-family: time new romans;
+            background-color: #694214;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #694214;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+
+        /* Layout principale (2 colonne) */
+        .main {
+            display: flex;
+            flex: 1;
+        }
+
+        /* Colonna laterale del menu */
+        .sidebar {
+            width: 250px;
+            background-color: #935116;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem 0;
+        }
+		
+		/* Colore dietro le scritte nei collegamenti */
+        .sidebar a:hover {
+            background-color: #be6a20;
+        }
+
+        /* Corpo centrale */
+        .content {
+            flex: 1;
+            padding: 2rem;
+            background-color: #f2be5c;
+        }
+
+        /* Stili per il menu laterale */
+        .sidebar ul {
+            list-style-type: none;
+        }
+		
+		.testostile3{
+			font-family: time new romans;
+			font-size: 25px;
+			text-align: justify;
+			font-width: bolder;
+			color: black;
+		}
+		
+		.testostile{
+			font-family: time new romans;
+			font-size: 30px;
+			text-align: center;
+			font-width: bolder;
+			font-weight: bold;
+			color: ;
+		}
+		
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Intestazione -->
+    <header>
+      <p class="testostile3"> <h1> RED DEAD REDEMPTION 2 </h1> </p>
+    </header>
+
+    <!-- Contenuto principale -->
+    <div class="main">
+        <!-- Colonna laterale (Menu) -->
+        <aside class="sidebar">
+            <p class="testostile"> Collegamenti </p>
+            <ul>
+                <li> <a href="homegioco2.html">HOME</a> </li>
+                <li> <a href="storia2.html">LA STORIA</a> </li>
+                <li> <a href="curiosita2.html">CURIOSITA'</a> </li>
+                <li> <a href="rockstar2.html">ROCKSTARGAMES</a> </li>
+            </ul>
+        </aside>
+
+        <!-- Corpo centrale -->
+        <div class="content">
+		<p align="center"> <img src="img/logo1.png" height="95" width="25%"> </img>
+
+            <p class="testostile3"> 
+
+
+<p class="testostile3"> 
+Red Dead Redemption 2 è un videogioco di azione-avventura open world sviluppato da Rockstar Games. Ambientato nel 1899, il gioco segue le vicende di Arthur Morgan, un membro della banda di Van der Linde, un gruppo di fuorilegge in fuga dalla legge e dal cambiamento di un'epoca. Con una narrazione profonda e un mondo ricco di dettagli, Red Dead Redemption 2 esplora temi di lealtà, sopravvivenza e moralità, offrendo al contempo un'esperienza immersiva con un'ambientazione vastissima che spazia tra montagne, praterie, città e insediamenti. La combinazione di storia avvincente, missioni dinamiche e un'incredibile attenzione ai particolari fa di questo gioco un'esperienza unica nel suo genere.
+</p>
+
+
+		<h1> <p align="center"> <a href="https://www.youtube.com/watch?v=dXa8WjsuDa4"> RDR2 TRAILER </a> </h1>
+		
+			<p align="center"> <video width="1000" height="550" autoplay muted controls loop=1>
+				<source src="trailer.mp4" type="video/mp4"> </video>
+                 <source src="trailer.ogg" type="video/ogg"> </video>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; VIDEOGAME Stefanile Michele </p>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con Layout</title>
+    <style>
+        /* Reset di default */
+         {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Stili generali */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: black;
+        }
+
+        /* Layout contenitore */
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Intestazione */
+        header {
+			font-family: time new romans;
+            background-color: #694214;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #694214;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+
+        /* Layout principale (2 colonne) */
+        .main {
+            display: flex;
+            flex: 1;
+        }
+
+        /* Colonna laterale del menu */
+        .sidebar {
+            width: 250px;
+            background-color: #935116;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem 0;
+        }
+		
+		/* Colore dietro le scritte nei collegamenti */
+        .sidebar a:hover {
+            background-color: #be6a20;
+        }
+
+        /* Corpo centrale */
+        .content {
+            flex: 1;
+            padding: 2rem;
+            background-color: #f2be5c;
+        }
+
+        /* Stili per il menu laterale */
+        .sidebar ul {
+            list-style-type: none;
+        }
+		
+		.testostile3{
+			font-family: time new romans;
+			font-size: 25px;
+			text-align: justify;
+			font-width: bolder;
+			color: black;
+		}
+		
+		.testostile1{
+			font-family: time new romans;
+			font-size: 30px;
+			text-align: center;
+			font-width: bolder;
+			font-weight: bold;
+		}
+		
+		.testostile{
+			font-family: time new romans;
+			font-size: 30px;
+			text-align: center;
+			font-width: bolder;
+			font-weight: bold;
+			color: ;
+		}
+		
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Intestazione -->
+    <header>
+      <p class="testostile3"> <h1> ROCKSTARGAMES </h1> </p>
+    </header>
+
+    <!-- Contenuto principale -->
+    <div class="main">
+        <!-- Colonna laterale (Menu) -->
+        <aside class="sidebar">
+            <p class="testostile"> Collegamenti </p>
+            <ul>
+                <li> <a href="homegioco2.html">HOME</a> </li>
+                <li> <a href="storia2.html">LA STORIA</a> </li>
+                <li> <a href="curiosita2.html">CURIOSITA'</a> </li>
+                <li> <a href="rockstar2.html">ROCKSTARGAMES</a> </li>
+            </ul>
+        </aside>
+
+        <!-- Corpo centrale -->
+        <div class="content">
+<p align="center"> <img src="img/Rockstar.png" height="150" width="25%"> </img>
+
+
+      <p class="testostile1"> ROCKSTARGAMES </p>
+
+<p class="testostile3"> 
+Rockstar Games è una delle case editrici e sviluppatori più famosi e influenti nel mondo dei videogiochi, nota per la creazione di giochi open-world estremamente dettagliati e immersivi. Fondata nel 1998 come parte del gruppo Take-Two Interactive, Rockstar è diventata celebre per titoli come Grand Theft Auto, Red Dead Redemption e Max Payne. Il suo stile distintivo si caratterizza per storie coinvolgenti, mondi aperti ricchi di dettagli, personaggi memorabili e una libertà di gioco senza pari. Nel caso di Red Dead Redemption 2 (RDR2), Rockstar ha creato un'ambientazione western vastissima e realistica, con una narrazione profonda che esplora temi di lealtà, redenzione e lotta per la sopravvivenza. La casa editrice è famosa anche per la cura nei dettagli e l'innovazione tecnologica, che ha contribuito a ridefinire l'industria videoludica.
+</p>
+
+
+		<h1> <p align="center"> <a href="https://www.rockstargames.com/"> ROCKSTARGAMES </a> </h1>
+		
+
+<table style="width:100%">	
+			<tr>
+				<td> <img src="img/Rockstar1.webp" height="400" width="100%"> </img>  </td>
+				<td> <img src="img/Rockstar2.jpg" height="400" width="100%"> </img>  </td>
+			</tr>
+</table>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; VIDEOGAME Stefanile Michele </p>
+    </footer>
+</div>
+
+</body>
+</html>
